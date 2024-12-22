@@ -1,0 +1,175 @@
+## Introduction
+- Modern computer system
+- what is an OS
+- some common Definitions of OS
+- OS as an Extended machine
+- OS as a resource allocator
+- Resource management
+- Booting the computer
+
+## Fundamental Concept
+- Kernel 
+- Dual-Mode Operation
+- Kernel Mode Excution
+- Switching Modes
+- System Call
+- Steps in making a System call
+- Trapping into kernel is costly
+- Some Unix System call for process management
+- The fork() System call
+- fork example1
+- fork example2
+- OS architecture/Structure
+- Monolithic Kernel
+- Microkernel
+- Example
+- Multiuser
+- Multi-processor OS
+
+## Proecess and Thread
+- What is a programm
+- Process in Memory
+- How Program become process
+- Processes
+- Process Data Structure
+- PCB
+- process Creation
+- process Termination
+- Lifecycle of a process
+- The Model  Process
+- Multi programming
+- CPU Switch from process to process
+- Context Switch
+- What does it take to create a process
+- Thread ans process
+- Multithreaded Process
+- The Classical Thread Model
+- Why each thread has its own stack
+- Thread Context Switch
+- ConCurrect Excution on a Sinngle -core System
+- Parallel Excution on a Multicore System
+- Thread Dynamics
+- Thread useage
+- Thread useage: word processor
+- Thread Implementation
+- User-level Yhreads
+- User_level Vs Kernel Threads
+-Implementng Threads in User Space
+- User - Level Threads
+- Kernel Threads
+- Implementing Threads in the Kernel
+- Kernel-Level Threads
+- Hybride Implementation
+- Process Context Switching vs Thread Context Switching
+
+
+## Scheduling
+- What is Scheduling
+- Importance of Scheduling
+- Process Behavior
+- Process Compute and I/O bound
+- When to Schedule
+- Batch System
+- Preemptive and Non-Preemptive
+- Different Systems, Different Focuses
+- Batch Systems
+- FCFS
+- FCFS example
+- advantage
+- Problems with FCFS
+- **Convoy Effect**
+- SJF
+- SJF example
+- compare to FCFS
+- SJF is not always optimal
+- Preemptive SJF
+- Preemptive SJF example
+- problem with Preemptive SJF
+- Interactive System
+- Round Robin
+- Implementing Round Robin
+- RR: choich of Time Quantum
+Priority Scheduling
+- Assign Priority
+- Example: Dynamic Priority Assignment
+- Priority class
+- Lottery Scheduling
+- Real-Time Systems
+- Scheduling in Real-Time Systems
+- Thread Scheduling
+- User-Level Thread scheduling
+- Kernel-Level Thread Scheduling
+
+
+
+## IPC
+- IPC
+- IPC issue
+- spooling example
+- Spooling example: races
+- Better Coding
+- when can process be switched
+- Race condition
+- Critical Region
+-  Solution Requirenment
+- Mutual Exclusion with Busy Writting
+- Disabling Interrupts
+- Lock Variables
+- **Strict Alternation**
+- problem
+- **Peterson's Solution**
+- peterson's solution analysis
+
+- **Busy Waiting: Problems**
+- Sleep and Wakeup
+- **Producer -Consumer Problem**
+- Sleep and Wakeup
+- sleep and wakeup: race condition
+- semaphores
+- semaphores: type
+- semaphores: operation
+- semaphores: Automicity
+- Producer -Consumer with semaphores
+- semaphore: Usage
+- Mutual Exclution
+- Controlling access to a resource
+- Synchronization
+- Monitors
+- Problem with Monitors and semaphores
+- **Message Passing**
+- Producer -Consumer with message passing
+- Dining Philosophers
+- Dining Philosophers a solution
+- problem with that solution
+- another attempt
+- final solution
+- The Reader and Writer Problem
+- Issue regarding the solution
+
+
+## DeadLock
+- Introduction
+- Preemptive and Non-Preemptive Reasources
+- Resource Acquisition
+- Deadlock Definition
+- Condition for Resource Deadlocks
+- Deadlock Modeling
+- **The Ostrich Algorithm**
+- Deadlock Detection with One resources of each Type
+- Algorithm to detect Deadlock
+- DeadLock Detection with Multiple Resources of each Type
+- Recovery from deadlock
+- Deadlock avoidance and Resources Trajectories
+- Safe and Unsafe States
+- **Banker's Algorithm**
+- Banker algorithm for single resouces
+- Banker algorithm for multiple resources
+- deadlock prevention
+- attacking mutual exclusion
+- attacking hold and wait
+- attacking No Preemption
+- attacking Circular Wait condition
+- Deadlock Prevention
+- Communication Deadlock
+- livelock
+- starvation
